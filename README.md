@@ -23,6 +23,12 @@ with `php artisan serve`
 - Composer
 - NodeJS
 
+The MySQL installation needs the following properties:
+
+- Username: `root`
+- Password: `    `
+- Schema: `TerribleLaravel`
+
 ## What I've Been Doing
 
 These notes are here so that I can quickly see at a glance what's been going on in the course.
@@ -54,9 +60,16 @@ database to use the CRUD endpoints with.
 
 #### 9: Act Two - The Database Boogie
 
+We set up some Database stuff here. XAMPP SQL FTW.
+
 #### 10: Building Migrations pt 1
 
+Oh. Well, we didn't do anything here.
+
 #### 11: Building Migrations pt 2
+
+But here, I made a migration for the Terrible Questions for users to submit, and then imported it into the MySQL
+database using the command `php artisan migrate`
 
 ## Deviations from the course
 
