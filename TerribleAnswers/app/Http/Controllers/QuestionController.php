@@ -23,7 +23,7 @@ class QuestionController extends Controller
      */
     public function create()
     {
-        //
+        return view('questions.create');
     }
 
     /**
@@ -34,7 +34,7 @@ class QuestionController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return view('questions.create');
     }
 
     /**

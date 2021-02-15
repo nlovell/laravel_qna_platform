@@ -33,7 +33,9 @@ The MySQL installation needs the following properties:
 
 These notes are here so that I can quickly see at a glance what's been going on in the course.
 
-### Section 1: Getting to Grips
+### Section 1: Laravel Foundations: Basics to Every App
+
+This course is split into three sections. This section is essentially a "getting to grips with Laravel" type tutorial
 
 #### 1 through 4: Introduction
 
@@ -76,10 +78,22 @@ database using the command `php artisan migrate`
 I was introduced to _models_ here. They're how the php code interacts with the database. I think. At any rate, I made a
 model for TerribleQuestions and TerribleAnswers. Glorious.
 
+##### 13: Delicious Data
+
+First up, we make a new view. This blade is the `questions.create` blade, and it's where we create questions. Terrible
+questions, I hope. We don't yet do anything with the form we just created.
+
+##### 14: Data Data Data
+
+Finally! I'm sending _data_ places! In this case, it's from a form to the back-end.
+
 ## Deviations from the course
 
+I don't always follow instructions good. This section shows _where_ I differed from the provided material.
+
 - Project name is `TerribleAnswers`, because the course subtitles said so.
-- Project is no longer about asking Laravel Questions. Because of Circumstances.
+- Project is no longer about asking Laravel Questions. Because of Circumstances. Any instance of `LaravelQuestions` is
+  now `TerribleQuestions`. The same applies to answers.
 
 ## Final Thoughts
 
