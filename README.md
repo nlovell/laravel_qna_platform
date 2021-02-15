@@ -71,6 +71,11 @@ Oh. Well, we didn't do anything here.
 But here, I made a migration for the Terrible Questions for users to submit, and then imported it into the MySQL
 database using the command `php artisan migrate`
 
+##### 12: Terrible Models
+
+I was introduced to _models_ here. They're how the php code interacts with the database. I think. At any rate, I made a
+model for TerribleQuestions and TerribleAnswers. Glorious.
+
 ## Deviations from the course
 
 - Project name is `TerribleAnswers`, because the course subtitles said so.
