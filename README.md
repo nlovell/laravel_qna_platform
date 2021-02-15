@@ -2,11 +2,13 @@
 
 Apparently it's a good idea to learn more languages. I agree.
 
-This repository contains the code and project files generated as part of the Udemy course I'm currently following
+This repository contains the code and project files generated as part of the Udemy course I'm currently following. The
+course can be
+[found here](https://www.udemy.com/course/learning-path-laravel-complete-guide-to-laravel/learn/lecture/9641472#overview)
+.
 
-- [link here](https://www.udemy.com/course/learning-path-laravel-complete-guide-to-laravel/learn/lecture/9641472#overview)
-  The ReadMe is mostly for my own benefit, so I can remember what I've been doing. As such, the notes in this readme are
-  fairly informal.
+The ReadMe is mostly for my own benefit, so I can remember what I've been doing. As such, the notes in this readme are
+fairly informal.
 
 ## Project Notes
 
@@ -50,9 +52,11 @@ the `welcome` blade. The `template` includes all the CSS imports for the entire 
 This time we created some endpoints (a CRUD controller) for resources to manipulate. At present, there is no data or
 database to use the CRUD endpoints with.
 
-#### 9:
+#### 9: Act Two - The Database Boogie
 
-#### 10:
+#### 10: Building Migrations pt 1
+
+#### 11: Building Migrations pt 2
 
 ## Deviations from the course
 
