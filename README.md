@@ -85,7 +85,10 @@ questions, I hope. We don't yet do anything with the form we just created.
 
 ##### 14: Data Data Data
 
-Finally! I'm sending _data_ places! In this case, it's from a form to the back-end.
+Finally! I'm sending _data_ places! In this case, it's from a form to the back-end. The website now allows me to send
+unsanitised data to the database via a POST method at the `questions/create` endpoint. It then redirects the user to the
+respective page for the new question, at `questions/show/$id` - however there's no blade here to display the data. 1#15
+will surely bring such functionality!
 
 ## Deviations from the course
 

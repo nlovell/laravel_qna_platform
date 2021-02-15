@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\TerribleQuestion;
 use Illuminate\Http\Request;
 
 class QuestionController extends Controller
@@ -34,7 +35,20 @@ class QuestionController extends Controller
      */
     public function store(Request $request)
     {
-        return view('questions.create');
+        //some nifty ol' form validation
+        $this->validate($request, [
+            'title' => 'required|max:255'
+        ]);
+
+        $question = new TerribleQuestion();
+        $question->title = $request->title;
+        $question->description = $request->description;
+
+        if ($question->save()) {
+            return redirect()->route('questions.show', $question->id);
+        } else {
+            return redirect()->route('questions.create');
+        }
     }
 
     /**
