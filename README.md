@@ -20,14 +20,22 @@ These notes are here so that I can quickly see at a glance what's been going on 
 ### Section 1: Getting to Grips
 
 #### 1 through 4: Introduction
+
 It was a bit of preamble talking about Laravel, configuration, and why we use MVC stuff. Easy.
 
 #### 5: Setting up some new routes
+
 Apparently the course hasn't been updated for PHP 7.4 yet, but aside from that it was easy enough.
 
 #### 6: Blade (not the vampire slayer)
 
+Started to customise the Welcome Blade, by adding Bootstrap and my own content. Also, a ramble about why we aren't
+learning CSS in this course.
+
 #### 7: Blade 2 (still not the vampire slayer)
+
+Template time. In this episode, I split out the Welcome Blade into three components - the `topnav`, the `template`, and
+the `welcome` blade. The `template` includes all the CSS imports for the entire site. Nifty!
 
 #### 8:
 
@@ -38,6 +46,7 @@ Apparently the course hasn't been updated for PHP 7.4 yet, but aside from that i
 ## Deviations from the course
 
 - Project name is `TerribleAnswers`, because the course subtitles said so.
+- Project is no longer about asking Laravel Questions. Because of Circumstances.
 
 ## Final Thoughts
 
