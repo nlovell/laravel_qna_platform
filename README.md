@@ -1,20 +1,28 @@
 # Laravel: Complete Guide to Laravel
+
 Apparently it's a good idea to learn more languages. I agree.
 
-This repository contains the code and project files generated as part of the Udemy course I'm currently following - [link here](https://www.udemy.com/course/learning-path-laravel-complete-guide-to-laravel/learn/lecture/9641472#overview)
-The ReadMe is mostly for my own benefit, so I can remember what I've been doing.
+This repository contains the code and project files generated as part of the Udemy course I'm currently following
 
-## Installing Laravel
+- [link here](https://www.udemy.com/course/learning-path-laravel-complete-guide-to-laravel/learn/lecture/9641472#overview)
+  The ReadMe is mostly for my own benefit, so I can remember what I've been doing. As such, the notes in this readme are
+  fairly informal.
 
-Requirements:
+## Project Notes
 
-- Install XAMPP
-- Install PHP 7.4.14
-- Install Composer
+This project was developed in JetBrains PHPStorm, in Windows 10. The guide assumes as such. The webserver is run
+with `php artisan serve`
 
-The webserver is run with `php artisan serve`
+### Software Requirements:
+
+- JetBrains PHPStorm
+- XAMPP
+- PHP 7.4.14
+- Composer
+- NodeJS
 
 ## What I've Been Doing
+
 These notes are here so that I can quickly see at a glance what's been going on in the course.
 
 ### Section 1: Getting to Grips
@@ -37,7 +45,10 @@ learning CSS in this course.
 Template time. In this episode, I split out the Welcome Blade into three components - the `topnav`, the `template`, and
 the `welcome` blade. The `template` includes all the CSS imports for the entire site. Nifty!
 
-#### 8:
+#### 8: Oh, CRUD.
+
+This time we created some endpoints (a CRUD controller) for resources to manipulate. At present, there is no data or
+database to use the CRUD endpoints with.
 
 #### 9:
 
