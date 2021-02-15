@@ -9,7 +9,7 @@ The ReadMe is mostly for my own benefit, so I can remember what I've been doing.
 Requirements:
 
 - Install XAMPP
-- Install PHP 7
+- Install PHP 7.4.14
 - Install Composer
 
 The webserver is run with `php artisan serve`
@@ -23,10 +23,17 @@ These notes are here so that I can quickly see at a glance what's been going on 
 It was a bit of preamble talking about Laravel, configuration, and why we use MVC stuff. Easy.
 
 #### 5: Setting up some new routes
-Apparently the course hasn't been updated for PHP8 yet, but aside from that it was easy enough.
+Apparently the course hasn't been updated for PHP 7.4 yet, but aside from that it was easy enough.
 
-#### 6
+#### 6: Blade (not the vampire slayer)
 
+#### 7: Blade 2 (still not the vampire slayer)
+
+#### 8:
+
+#### 9:
+
+#### 10:
 
 ## Deviations from the course
 
