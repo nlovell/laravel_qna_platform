@@ -12,6 +12,10 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">Terrible Answers</a>
+                <a href="https://nlovell.dev/laravel_udemy">
+                    <i class="fa fa-github fa-2x" aria-hidden="true" style="margin-top:11px; margin-right:15px;"></i>
+                </a>
+
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -22,7 +26,10 @@
                     <li><a href="#">Popular</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <a href="{{route('questions.create')}}" class="btn btn-primary" style="margin-top:5px;">Ask A Question</a>
+
+
+                    <a href="{{route('questions.create')}}" class="btn btn-primary" style="margin-top:5px;">Ask A
+                        Question</a>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->

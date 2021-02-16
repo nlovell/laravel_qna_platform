@@ -8,6 +8,8 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f7b3d50ded.js" crossorigin="anonymous"></script>
+
 
     <!-- Styles -->
     <!-- Latest compiled and minified CSS -->
@@ -37,8 +39,7 @@
 </head>
 <body class="antialiased">
 
-@include('_includes/nav/topnav');
-@yield('content');
-
+@include('_includes/nav/topnav')
+@yield('content')
 </body>
 </html>
