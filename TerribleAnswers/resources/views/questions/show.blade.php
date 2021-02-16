@@ -8,7 +8,7 @@
             {{ $question -> description }}
         </p>
 
-        <hr />
+        <hr/>
+        @include('answers/create')
     </div>
-
 @endsection
