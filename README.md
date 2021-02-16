@@ -1,11 +1,23 @@
 # Laravel: Complete Guide to Laravel
 
+## Introduction
+
 Apparently it's a good idea to learn more languages. I agree.
 
 This repository contains the code and project files generated as part of the Udemy course I'm currently following. The
 course can be
 [found here](https://www.udemy.com/course/learning-path-laravel-complete-guide-to-laravel/learn/lecture/9641472#overview)
 .
+
+![Terrible Answers](resources/images/terrible.png)
+
+### What is Terrible Answers?
+
+This Laravel crash-course takes you on an adventure building a Yahoo Answers or Stack Exchange style Q&A website. The
+course instructor uses the theme of Laravel to build _Laravel Answers_, however when the automagically generated
+subtitles in the course said "Terrible Answers", I knew what had to be done.
+
+### Why so much writing?
 
 The ReadMe is mostly for my own benefit, so I can remember what I've been doing. As such, the notes in this readme are
 fairly informal.
