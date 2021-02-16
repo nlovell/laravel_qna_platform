@@ -17,6 +17,11 @@ class AnswerController extends Controller
      */
     public function store(Request $request)
     {
+        $this->validate($request, [
+            'description' => 'required|min:15',
+            'question_id' => 'required|integer'
+        ]);
+
         $answer = new TerribleAnswer();
         $answer->description = $request->description;
         $answer->terrible_question_id = $request->question_id;

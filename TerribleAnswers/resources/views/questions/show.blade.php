@@ -1,4 +1,4 @@
-@extends('template');
+@extends('template')
 
 @section('content')
     <div class="container">
@@ -7,6 +7,10 @@
         <p class="lead">
             {{ $question -> description }}
         </p>
+
+        <hr/>
+
+        @include('answers/show')
 
         <hr/>
         @include('answers/create')

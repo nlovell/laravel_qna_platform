@@ -141,9 +141,18 @@ We made another resource controller, and another model. In this lesson, we actua
 the 1:M relationship betwixt the `TerribleAnswers` and `TerribleQuestions`. This will allow a question to have many
 answers mapped against it. Frantabulous.
 
-#### 20
+#### 20: Mirror, Mirror, on the wall, how can I use this app to answer questions?
 
-#### 21
+Wish granted, my sweet river trout. Now you can _submit_ some terrible answers! I actually overcomplicated this a little
+bit, and had some fun with blades to split things out into more distinct modules than the course expected of me.
+Maintainability!
+
+#### 21:  Hey dude what the h*ck
+
+Fine, now you can _see_ the terrible answers too. Happy?
+
+This section showed me how to utilise the model side of the 1:M relationship I established in Section 1#19. As far as
+basic applications go, this one seems to be on the right tracks.
 
 #### 22
 

@@ -22,3 +22,4 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 .idea/sonarlint/
+.idea/sonarlint/issuestore/index.pb
