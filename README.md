@@ -23,6 +23,20 @@ The ReadMe is mostly for my own benefit, so I can remember what I've been doing.
 fairly informal. They're basically the types of notes I kept during lectures at uni, but these ones are public... for
 reasons.
 
+### Hey! You left some keys there!
+
+Yes. The app key is fine here because it's _not even remotely pretending to be a usable project_. Also, if you do plan
+on using this project (why?), change the app key using `php artisan key:generate`. The mailbox keys won't matter, as
+Mailtrap allows me to delete the key configuration when I'm done. They only exist out of convenience - it means I don't
+have to keep track of two .env files on my work machine, and my home machine. _They have no value, and no harm can be
+done with them_. It's just an artifact of convenience for following the Laravel course across two machines.
+
+Should I just... not? Yes. You shouldn't either - the app key is used
+for [cookie encryption](https://tighten.co/blog/app-key-and-you/) and that's kind of important for _actual projects_.
+Honestly, I forgot that I uploaded my app key until it was too late.
+
+TODO: Remove keys in the final version. Nuke Mailtrap account.
+
 ## How to Run
 
 TODO: I'll flesh this out when I've actually finished the project.
@@ -165,7 +179,7 @@ basic applications go, this one seems to be on the right tracks.
 
 #### 22: Who are you? Laravel Authentication 101
 
-A three-part lesson, how snazzy. The dude talks about how middleware works and what running the authentication add-in
+A two-part lesson, how snazzy. The dude talks about how middleware works and what running the authentication add-in
 process does to your project.
 
 #### 23: LA101.2
@@ -175,9 +189,18 @@ with the boilerplate code that was generated previously, have made it so that us
 Terrible Answers website. The `auth` UI blades provided by Laravel have been mutilated, so they now fit into my modified
 versions nicely.
 
-#### 24: LA101.3
+#### 24: Fool of a Took...
 
-#### 25:
+The guy rambled at me for like 7 minutes about how users expect a password reset process to work. I registered for
+Mailtrap, and put all the auth tokens into the project.
+
+#### 25: ... can now reset his password
+
+Spent some time wrestling the mail spoofing service, only for it to end up being the work firewall ruining my day. I
+went on to protect the website under the `auth` middleware! Heck yeah! Next step involves setting permissions for
+different users, as the system currently only recognises `logged in` and `not logged in`. I also updated a couple blades
+to use the template generated previously in the project, and added the PHP.ini file I'm using here so I can get it
+running at home quicklier.
 
 #### 26:
 
