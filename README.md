@@ -91,17 +91,39 @@ respective page for the new question, at `questions/show/$id` - however there's 
 will surely bring such functionality!
 
 ##### 15: Displaying Displaying Displaying
+
 1#15 did indeed bring such functionality.
 
 ##### 16: Displayinger Displayinger Displayinger
+
 Now we can view _all_ the records at once, from the questions index page.
 
 ##### 17: Pagination
-Don't want to view _all_ the records? How about _some_ of the records? At a time. On pages. Buckle up and get paginated, lad.
 
-##### 18: Database Shenanigans - part 1
-Most of this is stuff I covered at university, so I skimmed over it. I did set up the `TerribleAnswers` migration at this step though.
+Don't want to view _all_ the records? How about _some_ of the records? At a time. On pages. Buckle up and get paginated,
+lad.
 
+##### 18: Technology Connections - part 1
+
+A bit of a talk about database relationships and whatnot. Most of this is stuff I covered at university, so I skimmed
+over it. I did set up the `TerribleAnswers` migration at this step though.
+
+##### 19: Technology Connections - part 2
+
+Let's open with a haiku:
+
+```
+Lemons, like tables
+Are almost always bitter
+And I dropped them all.
+```
+
+Turns out `php artisan migrate:fresh` is the command you need for that, which I needed to do because I messed the tables
+up earlier. Not a big deal, thankfully.
+
+We made another resource controller, and another model. In this lesson, we actually ended up populating both models with
+the 1:M relationship betwixt the `TerribleAnswers` and `TerribleQuestions`. This will allow a question to have many
+answers mapped against it. Frantabulous.
 
 ## Deviations from the course
 
