@@ -9,7 +9,7 @@ course can be
 [found here](https://www.udemy.com/course/learning-path-laravel-complete-guide-to-laravel/learn/lecture/9641472#overview)
 .
 
-![Terrible Answers](resources/images/terrible.png)
+![Terrible Answers](/_resources/images/terrible.png)
 
 ### What is Terrible Answers?
 
