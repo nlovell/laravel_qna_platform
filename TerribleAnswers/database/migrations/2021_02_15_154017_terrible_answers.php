@@ -13,7 +13,12 @@ class TerribleAnswers extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('terrible_answers', function(Blueprint $table) {
+            $table -> id();
+            $table -> int('question_id');
+            $table -> text('description')->nullable();
+            $table -> timestamps();
+        });
     }
 
     /**

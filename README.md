@@ -99,6 +99,10 @@ Now we can view _all_ the records at once, from the questions index page.
 ##### 17: Pagination
 Don't want to view _all_ the records? How about _some_ of the records? At a time. On pages. Buckle up and get paginated, lad.
 
+##### 18: Database Shenanigans - part 1
+Most of this is stuff I covered at university, so I skimmed over it. I did set up the `TerribleAnswers` migration at this step though.
+
+
 ## Deviations from the course
 
 I don't always follow instructions good. This section shows _where_ I differed from the provided material.
