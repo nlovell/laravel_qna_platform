@@ -170,6 +170,11 @@ process does to your project.
 
 #### 23: LA101.2
 
+Migrated a couple more tables over. This time, they're the `create_users` and `password_resets` tables. These, along
+with the boilerplate code that was generated previously, have made it so that users can register and log in at the
+Terrible Answers website. The `auth` UI blades provided by Laravel have been mutilated, so they now fit into my modified
+versions nicely.
+
 #### 24: LA101.3
 
 #### 25:
@@ -181,6 +186,8 @@ process does to your project.
 #### 28:
 
 #### 29:
+
+### Section the Second
 
 ## Deviations from the course
 

@@ -26,7 +26,7 @@
                     <li><a href="#">Popular</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-
+                    @include('_includes/nav/lognav')
 
                     <a href="{{route('questions.create')}}" class="btn btn-primary" style="margin-top:5px;">Ask A
                         Question</a>
