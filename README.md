@@ -90,6 +90,11 @@ unsanitised data to the database via a POST method at the `questions/create` end
 respective page for the new question, at `questions/show/$id` - however there's no blade here to display the data. 1#15
 will surely bring such functionality!
 
+##### 15: Displaying Displaying Displaying
+1#15 did indeed bring such functionality.
+
+##### 16: 
+
 ## Deviations from the course
 
 I don't always follow instructions good. This section shows _where_ I differed from the provided material.

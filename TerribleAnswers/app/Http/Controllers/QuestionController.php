@@ -59,7 +59,10 @@ class QuestionController extends Controller
      */
     public function show($id)
     {
-        //
+        //questions/$id
+        $question = TerribleQuestion::findOrFail($id);
+
+        return view('questions.show') -> with('question', $question);
     }
 
     /**
