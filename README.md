@@ -20,7 +20,8 @@ subtitles in the course said "Terrible Answers", I knew what had to be done.
 ### Why so much writing?
 
 The ReadMe is mostly for my own benefit, so I can remember what I've been doing. As such, the notes in this readme are
-fairly informal.
+fairly informal. They're basically the types of notes I kept during lectures at uni, but these ones are public... for
+reasons.
 
 ## How to Run
 
@@ -44,6 +45,14 @@ The MySQL installation needs the following properties:
 - Username: `root`
 - Password: `    `
 - Schema: `TerribleLaravel`
+
+Some [PHP skulduggery](https://laravel.com/docs/8.x/authentication) that is required to get this project off the ground:
+
+```
+composer require laravel/ui
+php artisan ui vue --auth
+php artisan migrate
+```
 
 ## What I've Been Doing
 
@@ -154,11 +163,13 @@ Fine, now you can _see_ the terrible answers too. Happy?
 This section showed me how to utilise the model side of the 1:M relationship I established in Section 1#19. As far as
 basic applications go, this one seems to be on the right tracks.
 
-#### 22
+#### 22: Who are you? Laravel Authentication 101
 
-#### 23
+A three-part lesson, how snazzy.
 
-#### 24
+#### 23 LA101.2
+
+#### 24 LA101.3
 
 #### 25
 
@@ -174,9 +185,11 @@ basic applications go, this one seems to be on the right tracks.
 
 I don't always follow instructions good. This section shows _where_ I differed from the provided material.
 
+- Course is based on PHP 5.x. I am using PHP 7.4.
 - Project name is `TerribleAnswers`, because the course subtitles said so.
 - Project is no longer about asking Laravel Questions. Because of Circumstances. Any instance of `LaravelQuestions` is
   now `TerribleQuestions`. The same applies to answers.
+- Branding is now a blatant rip-off of Yahoo Answers
 
 ## Final Thoughts
 
