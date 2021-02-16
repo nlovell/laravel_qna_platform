@@ -14,7 +14,9 @@ class QuestionController extends Controller
      */
     public function index()
     {
-        //
+        $questions = TerribleQuestion::all();
+
+        return view('questions.index') -> with('questions', $questions);
     }
 
     /**
