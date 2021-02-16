@@ -165,21 +165,22 @@ basic applications go, this one seems to be on the right tracks.
 
 #### 22: Who are you? Laravel Authentication 101
 
-A three-part lesson, how snazzy.
+A three-part lesson, how snazzy. The dude talks about how middleware works and what running the authentication add-in
+process does to your project.
 
-#### 23 LA101.2
+#### 23: LA101.2
 
-#### 24 LA101.3
+#### 24: LA101.3
 
-#### 25
+#### 25:
 
-#### 26
+#### 26:
 
-#### 27
+#### 27:
 
-#### 28
+#### 28:
 
-#### 29
+#### 29:
 
 ## Deviations from the course
 
