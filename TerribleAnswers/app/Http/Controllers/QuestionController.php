@@ -14,7 +14,7 @@ class QuestionController extends Controller
      */
     public function index()
     {
-        $questions = TerribleQuestion::all();
+        $questions = TerribleQuestion::orderBy('id', 'desc')->paginate(7);
 
         return view('questions.index') -> with('questions', $questions);
     }

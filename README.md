@@ -93,7 +93,11 @@ will surely bring such functionality!
 ##### 15: Displaying Displaying Displaying
 1#15 did indeed bring such functionality.
 
-##### 16: 
+##### 16: Displayinger Displayinger Displayinger
+Now we can view _all_ the records at once, from the questions index page.
+
+##### 17: Pagination
+Don't want to view _all_ the records? How about _some_ of the records? At a time. On pages. Buckle up and get paginated, lad.
 
 ## Deviations from the course
 

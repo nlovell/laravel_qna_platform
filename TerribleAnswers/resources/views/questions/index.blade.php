@@ -3,7 +3,7 @@
 @section('content')
 
 
-    <div class="container">
+    <div class="container text-center">
         <h1> Recent Questions </h1>
         <hr />
 
@@ -18,5 +18,8 @@
         <a href="{{ route('questions.show', $question->id) }}" class="btn btn-primary btn-sm"> View Details</a>
     </div>
     @endforeach
+        <div class="text-center">
+        {{ $questions -> links('vendor/pagination/bootstrap-4') }}
+        </div>
     </div>
 @endsection
