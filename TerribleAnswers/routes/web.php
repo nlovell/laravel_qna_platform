@@ -26,3 +26,7 @@ Route::post('/contact', [PageController::class, 'contactPost']);
 
 Route::resource('questions', QuestionController::class);
 Route::resource('answers', AnswerController::class, ['except' => ['index', 'create', 'show']]);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
