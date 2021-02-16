@@ -22,10 +22,6 @@ subtitles in the course said "Terrible Answers", I knew what had to be done.
 The ReadMe is mostly for my own benefit, so I can remember what I've been doing. As such, the notes in this readme are
 fairly informal.
 
-## How to Run
-
-TODO: I'll flesh this out when I've actually finished the project.
-
 ## Project Notes
 
 This project was developed in JetBrains PHPStorm, in Windows 10. The guide assumes as such. The webserver is run
@@ -89,42 +85,42 @@ Oh. Well, we didn't do anything here.
 But here, I made a migration for the Terrible Questions for users to submit, and then imported it into the MySQL
 database using the command `php artisan migrate`
 
-#### 12: Terrible Models
+##### 12: Terrible Models
 
 I was introduced to _models_ here. They're how the php code interacts with the database. I think. At any rate, I made a
 model for TerribleQuestions and TerribleAnswers. Glorious.
 
-#### 13: Delicious Data
+##### 13: Delicious Data
 
 First up, we make a new view. This blade is the `questions.create` blade, and it's where we create questions. Terrible
 questions, I hope. We don't yet do anything with the form we just created.
 
-#### 14: Data Data Data
+##### 14: Data Data Data
 
 Finally! I'm sending _data_ places! In this case, it's from a form to the back-end. The website now allows me to send
 unsanitised data to the database via a POST method at the `questions/create` endpoint. It then redirects the user to the
 respective page for the new question, at `questions/show/$id` - however there's no blade here to display the data. 1#15
 will surely bring such functionality!
 
-#### 15: Displaying Displaying Displaying
+##### 15: Displaying Displaying Displaying
 
 1#15 did indeed bring such functionality.
 
-#### 16: Displayinger Displayinger Displayinger
+##### 16: Displayinger Displayinger Displayinger
 
 Now we can view _all_ the records at once, from the questions index page.
 
-#### 17: Pagination
+##### 17: Pagination
 
 Don't want to view _all_ the records? How about _some_ of the records? At a time. On pages. Buckle up and get paginated,
 lad.
 
-#### 18: Technology Connections - part 1
+##### 18: Technology Connections - part 1
 
 A bit of a talk about database relationships and whatnot. Most of this is stuff I covered at university, so I skimmed
 over it. I did set up the `TerribleAnswers` migration at this step though.
 
-#### 19: Technology Connections - part 2
+##### 19: Technology Connections - part 2
 
 Let's open with a haiku:
 
@@ -140,26 +136,6 @@ up earlier. Not a big deal, thankfully.
 We made another resource controller, and another model. In this lesson, we actually ended up populating both models with
 the 1:M relationship betwixt the `TerribleAnswers` and `TerribleQuestions`. This will allow a question to have many
 answers mapped against it. Frantabulous.
-
-#### 20
-
-#### 21
-
-#### 22
-
-#### 23
-
-#### 24
-
-#### 25
-
-#### 26
-
-#### 27
-
-#### 28
-
-#### 29
 
 ## Deviations from the course
 
