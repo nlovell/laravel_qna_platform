@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AnswerController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\QuestionController;
 use Illuminate\Support\Facades\Route;
@@ -24,3 +25,4 @@ Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 Route::post('/contact', [PageController::class, 'contactPost']);
 
 Route::resource('questions', QuestionController::class);
+Route::resource('answers', AnswerController::class, ['except' => ['index', 'create', 'show']]);
