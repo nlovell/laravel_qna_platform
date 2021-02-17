@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="{{mix('css/app.css')}}">
     <link rel="script" href="{{mix('js/app.js')}}">
+    <script src="https://kit.fontawesome.com/f7b3d50ded.js" crossorigin="anonymous"></script>
 
     <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
 

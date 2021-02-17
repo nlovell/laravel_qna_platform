@@ -1842,6 +1842,8 @@ module.exports = {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+__webpack_require__(/*! https://kit.fontawesome.com/f7b3d50ded.js */ "https://kit.fontawesome.com/f7b3d50ded.js");
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
@@ -19257,7 +19259,10 @@ process.chdir = function (dir) {
 process.umask = function() { return 0; };
 
 
-/***/ })
+/***/ }),
+
+/***/ "https://kit.fontawesome.com/f7b3d50ded.js":
+false
 
 /******/ 	});
 /************************************************************************/
