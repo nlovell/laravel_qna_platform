@@ -11,6 +11,11 @@ course can be
 
 ![Terrible Answers](/_resources/images/terrible.png)
 
+
+<details> 
+
+<summary> Preamble </summary>
+
 ### What is Terrible Answers?
 
 This Laravel crash-course takes you on an adventure building a Yahoo Answers or Stack Exchange style Q&A website. The
@@ -70,17 +75,22 @@ php artisan ui vue --auth
 php artisan migrate
 ```
 
+</details>
+
 ## What I've Been Doing
 
-These notes are here so that I can quickly see at a glance what's been going on in the course.
+These notes are here so that I can quickly see at a glance what's been going on in the course. As there are a lot of
+notes being made, I've nested each primary section into summary tabs. Click them to expand.
 
 ### Section 1: Laravel Foundations: Basics to Every App
 
-This course is split into three sections. This section is essentially a "getting to grips with Laravel" type tutorial
+This course is split into three sections. This section is essentially a "getting to grips with Laravel" type tutorial,
+and shows how to get started with Laravel's controllers and migration features, along with Blades and the `ui/Auth`
+library.
 
 <details>
 
-<summary>Laravel Foundations: Basics to Every App</summary>
+<summary>Click to expand</summary>
 
 #### 1 through 4: Introduction
 
@@ -232,12 +242,12 @@ TODO: Debug 1#27 and 1#28
 
 <details>
 
-<summary> Intermediate Laravel: Adding Popular Features to Our Apps </summary>
-
-### Section the Second
+### Intermediate Laravel: Adding Popular Features to Our Apps
 
 The numbering continues onward from 1#x - so the first chapter in this continued story will be 2#30. Which makes sense,
 right? Good. Onwards and downwards, into the Mines of Moria!
+
+<summary> Click to expand </summary>
 
 #### 30: Course Overview
 
