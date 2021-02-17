@@ -1,12 +1,15 @@
 @component('mail::message')
-# Introduction
+    # New Contact Message
+    Someone submitted a form!
 
-The body of your message.
+    @component('mail::panel')
+    @endcomponent
+    {{$message}}
 
-@component('mail::button', ['url' => ''])
-Button Text
-@endcomponent
+    @component('mail::button', ['url' => route('contact')])
+        Reply to the email
+    @endcomponent
 
-Thanks,<br>
-{{ config('app.name') }}
+    Thanks,<br>
+    {{ config('app.name') }}
 @endcomponent

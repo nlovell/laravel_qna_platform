@@ -40,6 +40,8 @@ class PageController extends Controller
             'message' => 'required|min:10'
         ]);
 
-        Mail::to('admin@terrible.laravel')->send(new ContactForm());
+        Mail::to('admin@terrible.laravel')->send(new ContactForm($request));
+
+        return redirect('/');
     }
 }

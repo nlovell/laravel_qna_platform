@@ -24,7 +24,7 @@
                 <textarea rows="5" name="message" class="form-control"></textarea>
             </div>
 
-            <input type="submit" class="btn btn-primary">Submit</input>
+            <input type="submit" class="btn btn-primary">
 
         </form>
     </div>
