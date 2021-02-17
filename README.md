@@ -216,9 +216,13 @@ Update functionality coming Soon.
 Up until now, our web service didn't offer a way to edit questions. This lecture discusses this flaw, and shows how to
 fix it. Neat.
 
-#### 28:
+#### 28: oh no
 
-#### 29:
+I'll go back and fix this later. I was having issues with calling `$answer->question->title` for some reason.
+
+TODO: Debug 1#27 and 1#28
+
+#### 29: Eager Loading
 
 ### Section the Second
 

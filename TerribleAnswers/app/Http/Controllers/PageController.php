@@ -24,7 +24,7 @@ class PageController extends Controller
 
     public function profile($id)
     {
-        $user = User::findOrFail($id);
+        $user = User::with(['questions', 'answers', 'answers.question'])->findOrFail($id);
         return view('profile')->with('user', $user);
     }
 

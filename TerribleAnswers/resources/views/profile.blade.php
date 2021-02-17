@@ -32,7 +32,7 @@
                 @foreach($user->answers as $answer)
                     <div class="panel panel-default">
                         <div class="panel-body">
-                            <h4>{{$answer->terrible_question_id}}</h4>
+                            <!--TODO <h4 answer->question->title </h4 -->
                             {{$user->name}}'s answer: <i>{{$answer->description}}</i>
                         </div>
 
