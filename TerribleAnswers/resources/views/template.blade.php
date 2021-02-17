@@ -36,6 +36,10 @@
             font-family: 'Nunito';
         }
     </style>
+
+    <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
+
+
 </head>
 <body class="antialiased">
 

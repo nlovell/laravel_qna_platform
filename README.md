@@ -204,14 +204,17 @@ different users, as the system currently only recognises `logged in` and `not lo
 to use the template generated previously in the project, and added the PHP.ini file I'm using here (so I can get it
 running at home quicklier).
 
-#### 26: Owning Things Is Fun
+#### 26: Owning Things Is Fun...
 
 We jumped in with updating a couple of models to establish user->submission relationships, then created migrations to
 complement them. After adding a line into the `store` methods of the controllers, we now have some functional user
 association. This new data is now handily displayed in the blades. Unfortunately that doesn't restrict access - yet.
 Update functionality coming Soon.
 
-#### 27:
+#### 27: ...But Keeping Them Is Funner
+
+Up until now, our web service didn't offer a way to edit questions. This lecture discusses this flaw, and shows how to
+fix it. Neat.
 
 #### 28:
 

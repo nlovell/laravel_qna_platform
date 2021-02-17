@@ -11,11 +11,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Terrible Answers</a>
-                <a href="https://nlovell.dev/laravel_udemy">
+                <a class="navbar-brand" href="#"><img src="{{asset('img/banner.png')}}"
+                                                      style="height:52px; margin-top:-17px;"></a>
+                <a href="https://nlovell.dev/laravel_udemy" target="_blank" rel="noopener noreferrer">
                     <i class="fa fa-github fa-2x" aria-hidden="true" style="margin-top:11px; margin-right:15px;"></i>
                 </a>
-
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -25,6 +25,7 @@
                     <li><a href="#">Recent</a></li>
                     <li><a href="#">Popular</a></li>
                 </ul>
+
                 <ul class="nav navbar-nav navbar-right">
                     @include('_includes/nav/lognav')
 
