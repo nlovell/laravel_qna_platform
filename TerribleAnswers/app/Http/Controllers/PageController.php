@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactForm;
 use App\Models\User;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 
 class PageController extends Controller
@@ -30,6 +33,13 @@ class PageController extends Controller
 
     public function sendContact(Request $request)
     {
+        $this->validate($request, [
+            'name' => 'required',
+            'email' => 'required',
+            'subject' => 'required|min:3',
+            'message' => 'required|min:10'
+        ]);
 
+        Mail::to('admin@terrible.laravel')->send(new ContactForm());
     }
 }
