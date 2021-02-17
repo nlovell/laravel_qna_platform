@@ -48,6 +48,8 @@ with `php artisan serve`
 
 ### Software Requirements:
 
+TODO: Ensure this section is accurate when I'm done
+
 - JetBrains PHPStorm
 - XAMPP
 - PHP 7.4.14
@@ -199,10 +201,15 @@ Mailtrap, and put all the auth tokens into the project.
 Spent some time wrestling the mail spoofing service, only for it to end up being the work firewall ruining my day. I
 went on to protect the website under the `auth` middleware! Heck yeah! Next step involves setting permissions for
 different users, as the system currently only recognises `logged in` and `not logged in`. I also updated a couple blades
-to use the template generated previously in the project, and added the PHP.ini file I'm using here so I can get it
-running at home quicklier.
+to use the template generated previously in the project, and added the PHP.ini file I'm using here (so I can get it
+running at home quicklier).
 
-#### 26:
+#### 26: Owning Things Is Fun
+
+We jumped in with updating a couple of models to establish user->submission relationships, then created migrations to
+complement them. After adding a line into the `store` methods of the controllers, we now have some functional user
+association. This new data is now handily displayed in the blades. Unfortunately that doesn't restrict access - yet.
+Update functionality coming Soon.
 
 #### 27:
 

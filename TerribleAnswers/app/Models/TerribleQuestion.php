@@ -10,4 +10,9 @@ class TerribleQuestion extends Model
     {
         return $this->hasMany('App\Models\TerribleAnswer');
     }
+
+    public function user()
+    {
+        return $this->belongsTo('App\Models\User');
+    }
 }

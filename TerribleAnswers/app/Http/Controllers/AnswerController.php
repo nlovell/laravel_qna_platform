@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\TerribleAnswer;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class AnswerController extends Controller
 {
@@ -29,6 +30,7 @@ class AnswerController extends Controller
         $answer = new TerribleAnswer();
         $answer->description = $request->description;
         $answer->terrible_question_id = $request->question_id;
+        $answer->user()->associate(Auth::id());
 
         if ($answer->save()) {
             return redirect()->route('questions.show', $answer->terrible_question_id);

@@ -31,7 +31,7 @@ class TerribleAnswers extends Migration
     public function down()
     {
         Schema::table('terrible_answers', function (Blueprint $table) {
-            $table->dropForeign('terrible_answers_question_id_foreign');
+            $table->dropForeign('terrible_answers_terrible_question_id_foreign');
         });
 
         Schema::dropIfExists('terrible_answers');

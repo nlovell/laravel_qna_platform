@@ -9,7 +9,7 @@
                     {{ $answer -> description }} </p>
 
                 <p style="font-size:0.6em">
-                    {{$answer -> created_at}}</small></small>
+                    {{$answer->user->name}} - {{$answer -> created_at->diffForHumans()}}
                 </p>
             </div>
         </div>
