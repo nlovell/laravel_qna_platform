@@ -83,7 +83,11 @@ class QuestionController extends Controller
      */
     public function edit($id)
     {
-        //
+        $question = TerribleQuestion::findOrFail($id);
+        if ($question->user->id != Auth::id()) {
+            return abort(403);
+        }
+        return view('questions.edit')->with('question', $question);
     }
 
     /**
@@ -95,7 +99,19 @@ class QuestionController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $question = TerribleQuestion::findOrFail($id);
+        if ($question->user->id != Auth::id()) {
+            return abort(403);
+        }
+
+        $question->title = $request->title;
+        $question->description = $request->description;
+
+        if ($question->save()) {
+            return redirect()->route('questions.show', $question->id);
+        } else {
+            return redirect()->route('questions.create');
+        }
     }
 
     /**

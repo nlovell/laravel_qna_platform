@@ -9,7 +9,8 @@
                     {{ $answer -> description }} </p>
 
                 <p style="font-size:0.6em">
-                    {{$answer->user->name}} - {{$answer -> created_at->diffForHumans()}}
+                    <a href="{{route('profile', $answer->user->id)}}">{{$answer->user->name}}</a>
+                    - {{$answer -> created_at->diffForHumans()}}
                 </p>
             </div>
         </div>
