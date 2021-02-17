@@ -40,26 +40,27 @@ Should I just... not? Yes. You shouldn't either - the app key is used
 for [cookie encryption](https://tighten.co/blog/app-key-and-you/) and that's kind of important for _actual projects_.
 Honestly, I forgot that I uploaded my app key until it was too late.
 
-TODO: Remove keys in the final version. Nuke Mailtrap account.
+[//]: # (TODO: Remove keys in the final version. Nuke Mailtrap account.)
 
 ## How to Run
 
-TODO: I'll flesh this out when I've actually finished the project.
+[//]: # (TODO: I'll flesh this out when I've actually finished the project.)
 
 ## Project Notes
 
-This project was developed in JetBrains PHPStorm, in Windows 10. The guide assumes as such. The webserver is run
-with `php artisan serve`
+This project was developed in JetBrains PHPStorm, in Windows 10. This """guide""" assumes as such. The webserver is run
+with `php artisan serve`.
 
 ### Software Requirements:
 
-TODO: Ensure this section is accurate when I'm done
+[//]: # (TODO: Ensure this section is accurate when I'm done)
 
 - JetBrains PHPStorm
 - XAMPP
 - PHP 7.4.14
 - Composer
 - NodeJS
+- WebPack
 
 The MySQL installation needs the following properties:
 
@@ -234,22 +235,46 @@ fix it. Neat.
 
 I'll go back and fix this later. I was having issues with calling `$answer->question->title` for some reason.
 
-TODO: Debug 1#27 and 1#28
+[//]: # (TODO: Debug 1#27 and 1#28)
 
 #### 29: Eager Loading
 
 </details>
 
-<details>
-
-### Intermediate Laravel: Adding Popular Features to Our Apps
+### Section 2: Intermediate Laravel: Adding Popular Features to Our Apps
 
 The numbering continues onward from 1#x - so the first chapter in this continued story will be 2#30. Which makes sense,
 right? Good. Onwards and downwards, into the Mines of Moria!
 
+<details>
+
 <summary>Click to expand </summary>
 
 #### 30: Course Overview
+
+#### 31: Laravel Mix Talk
+
+#### 32: More Laravel Mix Talk
+
+#### 33: Implementing Laravel Mix
+
+Firstly, _it's so cool_. Just tag your mix-manifest command with `.version()`
+Remember to call assets using `mix('foo/bar.css')` instead of `assets(foo/bar.css)` to ensure the cachebusting side of
+Mix works.
+
+#### 34:
+
+#### 35:
+
+#### 36:
+
+#### 37:
+
+#### 38:
+
+#### 39:
+
+#### 40:
 
 </details>
 
