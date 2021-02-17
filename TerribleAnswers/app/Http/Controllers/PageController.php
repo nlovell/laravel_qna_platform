@@ -12,11 +12,6 @@ class PageController extends Controller
         return "About Us Page";
     }
 
-    public function contact()
-    {
-        return "Contact Us Page";
-    }
-
     public function contactPost()
     {
         return "Submitted Contact form";
@@ -28,4 +23,13 @@ class PageController extends Controller
         return view('profile')->with('user', $user);
     }
 
+    public function contact()
+    {
+        return view('contact');
+    }
+
+    public function sendContact(Request $request)
+    {
+
+    }
 }

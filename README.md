@@ -258,17 +258,20 @@ right? Good. Onwards and downwards, into the Mines of Moria!
 
 #### 33: Implementing Laravel Mix
 
-Firstly, _it's so cool_. Just tag your mix-manifest command with `.version()`
+Firstly, _it's so cool_. Just tag your webpack.mix.js command with `.version()`
 Remember to call assets using `mix('foo/bar.css')` instead of `assets(foo/bar.css)` to ensure the cachebusting side of
 Mix works.
 
-#### 34:
+#### 34: Front-End Presets
 
-#### 35:
+#### 35: A Second Introduction to MailTrap
 
-#### 36:
+#### 36: Making a Contact Form
 
-#### 37:
+That's about all we did here, but it's the furthest thing we really did so far!
+37 will apparently put the back-end functionality in place for this.
+
+#### 37: Mailables
 
 #### 38:
 
