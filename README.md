@@ -7,7 +7,7 @@ Apparently it's a good idea to learn more languages. I agree.
 This repository contains the code and project files generated as part of the Udemy course I'm currently following. The
 course can be
 [found here](https://www.udemy.com/course/learning-path-laravel-complete-guide-to-laravel/learn/lecture/9641472#overview)
-.
+. It is taught by J. Alexander Curtis ([@_jacurtis]https://twitter.com/_jacurtis), for those wondering.
 
 ![Terrible Answers](/_resources/images/terrible.png)
 
@@ -77,6 +77,10 @@ These notes are here so that I can quickly see at a glance what's been going on 
 ### Section 1: Laravel Foundations: Basics to Every App
 
 This course is split into three sections. This section is essentially a "getting to grips with Laravel" type tutorial
+
+<details>
+
+<summary>Laravel Foundations: Basics to Every App</summary>
 
 #### 1 through 4: Introduction
 
@@ -224,7 +228,20 @@ TODO: Debug 1#27 and 1#28
 
 #### 29: Eager Loading
 
+</details>
+
+<details>
+
+<summary> Intermediate Laravel: Adding Popular Features to Our Apps </summary>
+
 ### Section the Second
+
+The numbering continues onward from 1#x - so the first chapter in this continued story will be 2#30. Which makes sense,
+right? Good. Onwards and downwards, into the Mines of Moria!
+
+#### 30: Course Overview
+
+</details>
 
 ## Deviations from the course
 
