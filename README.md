@@ -7,7 +7,7 @@ Apparently it's a good idea to learn more languages. I agree.
 This repository contains the code and project files generated as part of the Udemy course I'm currently following. The
 course can be
 [found here](https://www.udemy.com/course/learning-path-laravel-complete-guide-to-laravel/learn/lecture/9641472#overview)
-. It is taught by J. Alexander Curtis ([@_jacurtis]https://twitter.com/_jacurtis), for those wondering.
+. It is taught by J. Alexander Curtis ([@_jacurtis](https://twitter.com/_jacurtis)), for those wondering.
 
 ![Terrible Answers](/_resources/images/terrible.png)
 
@@ -247,7 +247,7 @@ TODO: Debug 1#27 and 1#28
 The numbering continues onward from 1#x - so the first chapter in this continued story will be 2#30. Which makes sense,
 right? Good. Onwards and downwards, into the Mines of Moria!
 
-<summary> Click to expand </summary>
+<summary>Click to expand </summary>
 
 #### 30: Course Overview
 

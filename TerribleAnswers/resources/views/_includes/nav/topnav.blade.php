@@ -14,7 +14,8 @@
                 <a class="navbar-brand" href="#"><img src="{{asset('img/banner.png')}}"
                                                       style="height:52px; margin-top:-17px;"></a>
                 <a href="https://nlovell.dev/laravel_udemy" target="_blank" rel="noopener noreferrer">
-                    <i class="fa fa-github fa-2x" aria-hidden="true" style="margin-top:11px; margin-right:15px;"></i>
+                    <i class="fa fa-github fa-2x" aria-hidden="true"
+                       style="color:#6001D1;margin-top:11px; margin-right:15px;"></i>
                 </a>
             </div>
 
