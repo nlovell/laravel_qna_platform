@@ -279,6 +279,51 @@ That's about all we did here, but it's the furthest thing we really did so far!
 
 #### 40:
 
+#### 41:
+
+Setting up a Vonage (Nexmo) account
+`composer require nexmo/client` and paste in some keys, basically
+
+#### 42:
+
+#### 43:
+
+#### 44:
+
+#### 45:
+
+#### 46:
+
+#### 47:
+
+#### 48:
+
+#### 49:
+
+#### 50:
+
+#### 51:
+
+#### 52:
+
+#### 53:
+
+#### 54:
+
+#### 55:
+
+#### 56:
+
+#### 57:
+
+#### 58:
+
+#### 59:
+
+#### 60:
+
+#### 61:
+
 </details>
 
 ## Deviations from the course

@@ -114,6 +114,14 @@
       <excludeFolder url="file://$MODULE_DIR$/TerribleAnswers/vendor/phpdocumentor/reflection-docblock" />
       <excludeFolder url="file://$MODULE_DIR$/TerribleAnswers/vendor/phpdocumentor/type-resolver" />
       <excludeFolder url="file://$MODULE_DIR$/TerribleAnswers/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/TerribleAnswers/vendor/vonage/nexmo-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/TerribleAnswers/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/TerribleAnswers/vendor/lcobucci/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/TerribleAnswers/vendor/lcobucci/jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/TerribleAnswers/vendor/nexmo/client" />
+      <excludeFolder url="file://$MODULE_DIR$/TerribleAnswers/vendor/nexmo/client-core" />
+      <excludeFolder url="file://$MODULE_DIR$/TerribleAnswers/vendor/laminas/laminas-diactoros" />
+      <excludeFolder url="file://$MODULE_DIR$/TerribleAnswers/vendor/laminas/laminas-zendframework-bridge" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
