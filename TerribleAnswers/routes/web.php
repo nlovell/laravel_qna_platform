@@ -33,4 +33,8 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/profile/{user}', [App\Http\Controllers\PageController::class, 'profile'])->name('profile');
 
 Route::get('/contact', [App\Http\Controllers\PageController::class, 'contact'])->name('contact');
-Route::post('/contact', [App\Http\Controllers\PageController::class, 'contact']);
+Route::post('/contact', [App\Http\Controllers\PageController::class, 'sendContact']);
+
+Route::get('/hellowill', [App\Http\Controllers\PageController::class, 'MTC'])->name('php-name');
+
+Route::get('/github/{username}', [App\Http\Controllers\ApiController::class, 'github'])->name('github');

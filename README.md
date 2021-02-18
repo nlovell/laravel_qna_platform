@@ -312,9 +312,12 @@ add nexmo to notifiable
 
 #### 52:
 
-#### 53:
+#### 53: Gulp
 
-#### 54:
+Install Gulp, tested Postman GET request against Github API
+https://api.github.com/users/nlovell
+
+#### 54: Gulp2
 
 #### 55:
 

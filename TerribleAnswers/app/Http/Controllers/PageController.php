@@ -10,6 +10,12 @@ use Illuminate\Support\Facades\Mail;
 
 class PageController extends Controller
 {
+
+    public function MTC()
+    {
+        return view('will');
+    }
+
     public function about()
     {
         return "About Us Page";

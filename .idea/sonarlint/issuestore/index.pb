@@ -19,8 +19,6 @@ B
 _resources/php.ini,3\2\32d916d34f1519d56c0e612df909cbe7a40518ce
 i
 9TerribleAnswers/resources/views/questions/index.blade.php,b\e\be6f60a0fd4a7a2c5b8cbe04196cfd5275f083ae
-I
-TerribleAnswers/README.md,0\0\00ca868d440033df9bc5d7e6457554b95ce40116
 L
 TerribleAnswers/.env.example,4\d\4dbb7b1d29f7f5dfb6809dae36bed6db6662b940
 D
@@ -85,3 +83,19 @@ a
 1TerribleAnswers/resources/views/contact.blade.php,d\a\dae8e6374a9f4fe6a284e5e19b1bafeaa6ab06ce
 h
 8TerribleAnswers/app/Notifications/NewAnswerSubmitted.php,3\e\3eaae1d60e279b2e5f2769a3e4fd1ede7ecfa809
+|
+LTerribleAnswers/database/migrations/2021_02_18_101220_add_phone_to_users.php,b\0\b036e826e8eb1286cd906fabeca8f836301fff8b
+R
+"TerribleAnswers/config/logging.php,a\7\a788c99afe7bd41e75595065d2b56981d579d073
+„
+TTerribleAnswers/vendor/laravel/ui/src/Auth/bootstrap-stubs/auth/passwords/email.stub,b\a\ba4d0ad54718204612950cde5286988138c47bbd
+n
+>TerribleAnswers/resources/views/auth/passwords/email.blade.php,b\6\b6ea0b517f67b992ddb7a903b72efdb289923944
+„
+TTerribleAnswers/storage/framework/views/49fd476e0ad19ef2c5d55af9d12357034274a019.php,6\3\63d1e4d356679c74449cb301e4f063a5efc55b4c
+d
+4TerribleAnswers/resources/views/auth/login.blade.php,d\2\d2973652eb0caf442dccec3925f99b27463910b2
+S
+#TerribleAnswers/config/services.php,2\7\2700fa8de529e88c7dd246751a349415469d4081
+V
+&TerribleAnswers/storage/app/.gitignore,7\d\7db31d72840f2c66f4ecc040737733940710527e
