@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AnswerController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\QuestionController;
 use Illuminate\Support\Facades\Route;
@@ -29,12 +30,15 @@ Route::resource('answers', AnswerController::class, ['except' => ['index', 'crea
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/profile/{user}', [App\Http\Controllers\PageController::class, 'profile'])->name('profile');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/profile/{user}', [PageController::class, 'profile'])->name('profile');
+Route::get('/questions', [QuestionController::class, 'index'])->name('questions');
 
-Route::get('/contact', [App\Http\Controllers\PageController::class, 'contact'])->name('contact');
-Route::post('/contact', [App\Http\Controllers\PageController::class, 'sendContact']);
 
-Route::get('/hellowill', [App\Http\Controllers\PageController::class, 'MTC'])->name('php-name');
+Route::get('/contact', [PageController::class, 'contact'])->name('contact');
+Route::post('/contact', [PageController::class, 'sendContact']);
 
-Route::get('/github/{username}', [App\Http\Controllers\ApiController::class, 'github'])->name('github');
+Route::get('/hellowill', [PageController::class, 'MTC'])->name('php-name');
+
+Route::get('/github', [App\Http\Controllers\PageController::class, 'github'])->name('github');
+Route::post('/github', [App\Http\Controllers\ApiController::class, 'getGitInfo']);

@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
+    <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
+
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,7 +14,6 @@
     <link rel="script" href="{{mix('js/app.js')}}">
     <script src="https://kit.fontawesome.com/f7b3d50ded.js" crossorigin="anonymous"></script>
 
-    <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
 
     <style>
         .btn-primary {

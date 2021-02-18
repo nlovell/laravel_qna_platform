@@ -11,9 +11,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="{{asset('img/banner.png')}}"
-                                                      style="height:52px; margin-top:-17px;"></a>
-                <a href="https://nlovell.dev/laravel_udemy" target="_blank" rel="noopener noreferrer">
+                <a class="navbar-brand" href="{{ route('index') }}"><img src="{{asset('img/banner.png')}}"
+                                                                         style="height:52px; margin-top:-17px;"></a>
+                <a href="https://github.com/nlovelledu/udemy_laravel" target="_blank" rel="noopener noreferrer">
                     <i class="fa fa-github fa-2x" aria-hidden="true"
                        style="color:#6001D1;margin-top:11px; margin-right:15px;"></i>
                 </a>
@@ -22,9 +22,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="{{ route('index') }}">Home</a></li>
-                    <li><a href="#">Recent</a></li>
-                    <li><a href="#">Popular</a></li>
+                    <li><a href="{{ route('index') }}">Home</a></li>
+                    <li><a href="{{ route('questions') }}">Questions</a></li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
