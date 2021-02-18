@@ -4,6 +4,7 @@
 
     @component('mail::panel')
     @endcomponent
+
     {{$message}}
 
     @component('mail::button', ['url' => route('contact')])

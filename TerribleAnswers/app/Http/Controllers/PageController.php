@@ -35,12 +35,12 @@ class PageController extends Controller
     {
         $this->validate($request, [
             'name' => 'required',
-            'email' => 'required',
+            'email' => 'required|email',
             'subject' => 'required|min:3',
             'message' => 'required|min:10'
         ]);
 
-        Mail::to('admin@terrible.laravel')->send(new ContactForm($request));
+        Mail::to('admin@terriblelaravel.net')->send(new ContactForm($request));
 
         return redirect('/');
     }

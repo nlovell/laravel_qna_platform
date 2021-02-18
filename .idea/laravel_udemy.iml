@@ -122,6 +122,10 @@
       <excludeFolder url="file://$MODULE_DIR$/TerribleAnswers/vendor/nexmo/client-core" />
       <excludeFolder url="file://$MODULE_DIR$/TerribleAnswers/vendor/laminas/laminas-diactoros" />
       <excludeFolder url="file://$MODULE_DIR$/TerribleAnswers/vendor/laminas/laminas-zendframework-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/TerribleAnswers/vendor/laravel/nexmo-notification-channel" />
+      <excludeFolder url="file://$MODULE_DIR$/TerribleAnswers/vendor/nexmo/laravel" />
+      <excludeFolder url="file://$MODULE_DIR$/TerribleAnswers/vendor/vonage/client" />
+      <excludeFolder url="file://$MODULE_DIR$/TerribleAnswers/vendor/vonage/client-core" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

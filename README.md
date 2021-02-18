@@ -286,6 +286,12 @@ Setting up a Vonage (Nexmo) account
 
 #### 42:
 
+php artisan tinker
+
+change db manually
+
+add nexmo to notifiable
+
 #### 43:
 
 #### 44:
