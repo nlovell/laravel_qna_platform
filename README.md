@@ -262,6 +262,8 @@ Firstly, _it's so cool_. Just tag your webpack.mix.js command with `.version()`
 Remember to call assets using `mix('foo/bar.css')` instead of `assets(foo/bar.css)` to ensure the cachebusting side of
 Mix works.
 
+note: `npm run dev`
+
 #### 34: Front-End Presets
 
 #### 35: A Second Introduction to MailTrap
