@@ -42,3 +42,6 @@ Route::get('/hellowill', [PageController::class, 'MTC'])->name('php-name');
 
 Route::get('/github', [App\Http\Controllers\PageController::class, 'github'])->name('github');
 Route::post('/github', [App\Http\Controllers\ApiController::class, 'getGitInfo']);
+
+Route::get('/weather', [App\Http\Controllers\ApiController::class, 'getWeather'])->name('weather');
+Route::post('/weather', [App\Http\Controllers\ApiController::class, 'postWeather'])->name('weather');

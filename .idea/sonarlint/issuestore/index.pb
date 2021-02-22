@@ -99,3 +99,7 @@ S
 #TerribleAnswers/config/services.php,2\7\2700fa8de529e88c7dd246751a349415469d4081
 V
 &TerribleAnswers/storage/app/.gitignore,7\d\7db31d72840f2c66f4ecc040737733940710527e
+f
+6TerribleAnswers/app/Http/Controllers/ApiController.php,2\8\2819213a52616199c860ba9fe08f0c55a4bf9aa5
+^
+.TerribleAnswers/resources/views/will.blade.php,3\2\32f8806f782b53ef207389f6e3563e5a63998966

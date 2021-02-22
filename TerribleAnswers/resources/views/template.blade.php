@@ -12,8 +12,6 @@
 
     <link rel="stylesheet" href="{{mix('css/app.css')}}">
     <link rel="script" href="{{mix('js/app.js')}}">
-    <script src="https://kit.fontawesome.com/f7b3d50ded.js" crossorigin="anonymous"></script>
-
 
     <style>
         .btn-primary {
@@ -39,10 +37,16 @@
         }
     </style>
 
+    @yield('styles')
+
+    <script src="https://kit.fontawesome.com/f7b3d50ded.js" crossorigin="anonymous"></script>
+    @yield('scripts')
+
 </head>
 <body class="antialiased">
 
 @include('_includes/nav/topnav')
+
 @yield('content')
 </body>
 </html>

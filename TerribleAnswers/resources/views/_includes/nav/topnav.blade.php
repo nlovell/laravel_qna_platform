@@ -25,14 +25,15 @@
                     <li><a href="{{ route('index') }}">Home</a></li>
                     <li><a href="{{ route('questions') }}">Questions</a></li>
                 </ul>
+            </div>
 
-                <ul class="nav navbar-nav navbar-right">
-                    @include('_includes/nav/lognav')
+            <ul class="nav navbar-nav navbar-right">
+                @include('_includes/nav/lognav')
 
-                    <a href="{{route('questions.create')}}" class="btn btn-primary" style="margin-top:5px;">Ask A
-                        Question</a>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+                <a href="{{route('questions.create')}}" class="btn btn-primary" style="margin-top:5px;">Ask A
+                    Question</a>
+            </ul>
+        </div><!-- /.navbar-collapse -->
     </nav>
-</div>
+</div><!-- /.container-fluid -->
+s
